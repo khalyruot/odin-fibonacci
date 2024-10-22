@@ -10,9 +10,10 @@ function fibs(arrIndex) {
     }
 
     console.log(fibs_array);
-    return fibs_array[arrIndex]; // Return the Fibonacci number at the given index
+    return fibs_array[arrIndex-1]; // Return the Fibonacci number at the given index
 }
 
 // Example usage
-console.log(fibs(8)); // This will return the 5th Fibonacci number
+console.log("fibs: "+ fibs(8)); // This will return the 5th Fibonacci number
 //[0, 1, 1, 2, 3, 5, 8, 13]
+
